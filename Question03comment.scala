@@ -6,6 +6,7 @@ object q3 extends App{
     var c=4
     var d=5
     var k=4.3f
+    var g=4.0f
   
     //println( - -b * a + c *d - -);//in scala this will not run because it does not has an decrement operator
                                   //But if we evaluate this in java it gives us 

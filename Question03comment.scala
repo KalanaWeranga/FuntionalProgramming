@@ -26,12 +26,13 @@ object q3 extends App{
     println(a);
     a+=1;
     
-    println (–2 * ( g – k ) +c);// this will execute both languages output is 4.6
+    println (-2 * ( g-k ) +c);// this will execute both languages output is 4.6
     //println (c=c++); in scala this will not execute because of increment operator. In java output is 4 
-    println(c);
+    println(c==c);
     //println (c=++c*a++);in scala this will not execute because of increment operator. In java output is 15
     c+=1;
-    println(c*a)
+    c+=1;
+    println(c==c*a)
     a+=1;
 
 } 

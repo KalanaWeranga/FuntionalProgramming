@@ -8,7 +8,11 @@ object q4b extends App{
 
     def profit(price:Int)=income(price)-cost(price)
 
-    println(profit(15))
+    while(true){
+       var num:Int=scala.io.StdIn.readInt()
+        println(profit(num)) 
+        println("\n");
+    }
    
 
 }

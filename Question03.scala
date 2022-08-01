@@ -10,8 +10,8 @@ object q3 extends App{
     }
 
 
-    def formatNames(f:String=>String,x:String):String={
-        val a=f(x)
+    def formatNames(f:String=>String,name:String):String={
+        val a=f(name)
         return a;
     }
 
